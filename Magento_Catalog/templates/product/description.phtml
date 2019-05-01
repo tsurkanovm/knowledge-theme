@@ -1,8 +1,0 @@
-<?php
-$_helper = $this->helper('Magento\Catalog\Helper\Output');
-?>
-<div class="product description product-item-description">
-    <?= /* @escapeNotVerified */ $_helper->productAttribute($_product, $_product->getDescription(), 'description') ?>
-    <a href="<?= /* @escapeNotVerified */ $_product->getProductUrl() ?>" title="<?= /* @escapeNotVerified */ $_productNameStripped ?>"
-       class="action more"><?= /* @escapeNotVerified */ __('Learn More') ?></a>
-</div>

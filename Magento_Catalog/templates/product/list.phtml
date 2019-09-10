@@ -54,7 +54,7 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
                         <div class="product-item-inner">
                             <?php if ($showDescription):?>
                                 <div class="product description product-item-description">
-                                    <?= /* @escapeNotVerified */ $_helper->productAttribute($_product, $_product->getDescription(), 'description') ?>
+                                    <?= /* @escapeNotVerified */ $_helper->productAttribute($_product, $_product->getShortDescription(), 'description') ?>
                                 </div>
                             <?php endif; ?>
                         </div>
